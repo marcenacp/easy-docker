@@ -2,10 +2,17 @@
   "name": "easy-docker",
   "version": "0.0.1",
   "description": "Interactive command line tool for Docker",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pierre@kili-technology.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "bin": {
+    "dbash": "bin/docker-bash.js",
+    "dstop": "bin/docker-stop.js"
+  }
 }
