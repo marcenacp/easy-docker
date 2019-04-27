@@ -1,0 +1,11 @@
+{
+  "name": "easy-docker",
+  "version": "0.0.1",
+  "description": "Interactive command line tool for Docker",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pierre@kili-technology.com",
+  "license": "ISC"
+}
