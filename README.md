@@ -1,10 +1,10 @@
 # easy-docker
 
-`easy-docker` is a Shell wrapper around Docker written in Node.
+`easy-docker` is a simple wrapper around Docker commands, written in Node.
 
 ## Usage
 
-Use `dbash` and `dstop` as wrapper for Docker commands `exec` an `dstop`.
+Use `dbash` and `dstop` as wrapper for Docker commands `exec` and `stop`.
 
 ![](public/usage.gif)
 
