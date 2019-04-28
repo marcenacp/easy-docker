@@ -4,13 +4,16 @@
 
 ## Usage
 
-Use `dbash` and `dstop` as wrapper for Docker commands `exec` and `stop`.
+- `dbash`: `docker exec -it CONTAINER_ID /bin/bash`
+- `dlogs`: `docker logs --follow CONTAINER_ID`
+- `drestart`: `docker restart CONTAINER_ID`
+- `dstop`: `docker stop CONTAINER_ID`
 
 ![](public/usage.gif)
 
 ## Installation
 
-- Install from Github:
+- Install from Github
 ```bash
 git clone git@github.com:marcenacp/easy-docker.git
 cd easy-docker/
@@ -18,4 +21,4 @@ npm install
 npm link
 ```
 
-- Use `dbash` and `dstop`from your terminal
+- Use all shortcuts listed above
