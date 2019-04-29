@@ -1,6 +1,6 @@
 {
   "name": "easy-docker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive command line tool for Docker",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,8 @@
     "dbash": "bin/docker-bash.js",
     "dlogs": "bin/docker-logs.js",
     "drestart": "bin/docker-restart.js",
-    "dstop": "bin/docker-stop.js"
+    "dstop": "bin/docker-stop.js",
+    "dip": "bin/docker-ip.js",
+    "dkill": "bin/docker-kill.js"
   }
 }
