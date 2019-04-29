@@ -13,10 +13,10 @@
   },
   "bin": {
     "dbash": "bin/docker-bash.js",
+    "dip": "bin/docker-ip.js",
+    "dkill": "bin/docker-kill.js",
     "dlogs": "bin/docker-logs.js",
     "drestart": "bin/docker-restart.js",
-    "dstop": "bin/docker-stop.js",
-    "dip": "bin/docker-ip.js",
-    "dkill": "bin/docker-kill.js"
+    "dstop": "bin/docker-stop.js"
   }
 }
