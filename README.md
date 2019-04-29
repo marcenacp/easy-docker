@@ -5,9 +5,9 @@
 ## Usage
 
 - `dbash`: `docker exec -it CONTAINER_ID /bin/bash`
-- `dsh`: `docker exec -it CONTAINER_ID /bin/sh`
 - `dlogs`: `docker logs --follow CONTAINER_ID`
 - `drestart`: `docker restart CONTAINER_ID`
+- `dsh`: `docker exec -it CONTAINER_ID /bin/sh`
 - `dstop`: `docker stop CONTAINER_ID`
 
 ![](public/usage.gif)
