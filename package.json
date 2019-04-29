@@ -15,6 +15,7 @@
     "dbash": "bin/docker-bash.js",
     "dlogs": "bin/docker-logs.js",
     "drestart": "bin/docker-restart.js",
+    "dsh": "bin/docker-sh.js",
     "dstop": "bin/docker-stop.js"
   }
 }
