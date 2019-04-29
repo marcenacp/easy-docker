@@ -5,11 +5,11 @@
 ## Usage
 
 - `dbash`: `docker exec -it CONTAINER_ID /bin/bash`
+- `dip`: `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' CONTAINER_ID`
+- `dkill`: `docker kill CONTAINER_ID`
 - `dlogs`: `docker logs --follow CONTAINER_ID`
 - `drestart`: `docker restart CONTAINER_ID`
 - `dstop`: `docker stop CONTAINER_ID`
-- `dip`: `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' CONTAINER_ID`
-- `dkill`: `docker kill CONTAINER_ID`
 
 ![](public/usage.gif)
 
